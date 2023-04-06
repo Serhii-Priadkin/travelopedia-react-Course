@@ -1,22 +1,22 @@
 {
   "destination": [
     {
-      "id": 1,
-      "city": "New York",
-      "country": "USA",
+      "id": 32.271396092720096,
+      "city": "dsa",
+      "country": "dsa",
+      "daysNeeded": 8
+    },
+    {
+      "id": 46.744386798577196,
+      "city": "fs",
+      "country": "te",
       "daysNeeded": 3
     },
     {
-      "id": 2,
-      "city": "Chicago",
-      "country": "USA",
+      "id": 78.46190751163336,
+      "city": "fsd",
+      "country": "dsff",
       "daysNeeded": 5
-    },
-    {
-      "id": 87.27605622566084,
-      "city": "qwer",
-      "country": "hdfs",
-      "daysNeeded": 3
     }
   ]
 }
