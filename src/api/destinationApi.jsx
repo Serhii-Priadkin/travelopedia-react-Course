@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-export const destinationAPI = createApi({
+export const destinationApi = createApi({
   reducerPath: "apidestination",
   baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:5001/" }),
   endpoints: (builder) => ({
@@ -34,4 +34,9 @@ export const destinationAPI = createApi({
   }),
 });
 
-export const { useGetAllDestinationQuery,useAddDestinationMutation,useUpdateDestinationMutation,useDeleteDestinationMutation } = destinationAPI;
+export const {
+  useGetAllDestinationQuery,
+  useAddDestinationMutation,
+  useUpdateDestinationMutation,
+  useDeleteDestinationMutation,
+} = destinationApi;

@@ -8,7 +8,8 @@ function DestinationList() {
   let content;
   if (isLoading) {
     content = <p>Loading...</p>;
-  } else if (isSuccess) {
+  } 
+  else if (isSuccess) {
     content = data.map((destination)=>{
         return(
             <article key={destination.id}>
