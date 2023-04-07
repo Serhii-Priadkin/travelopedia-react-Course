@@ -1,18 +1,6 @@
 {
   "destination": [
     {
-      "id": 46.744386798577196,
-      "city": "fs",
-      "country": "te",
-      "daysNeeded": 3
-    },
-    {
-      "id": 78.46190751163336,
-      "city": "fsd",
-      "country": "dsff",
-      "daysNeeded": 5
-    },
-    {
       "id": 62.794812178892045,
       "city": "Kharkiv",
       "country": "Ukraine",
@@ -22,6 +10,12 @@
       "id": 44.353784425305065,
       "city": "Poltava",
       "country": "Ukraine",
+      "daysNeeded": 10
+    },
+    {
+      "id": 50.68090829974925,
+      "city": "New York",
+      "country": "USA",
       "daysNeeded": 10
     }
   ]
