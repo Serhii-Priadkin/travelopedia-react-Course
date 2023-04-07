@@ -8,7 +8,12 @@ export const destinationApi = createApi({
     //QUERY -> GET
     //MUTATION -> POST/PUT/DELETE
     getAllDestination: builder.query({
-      query: () => "destination",
+      query: (destination) => ({
+        url: "destination",
+        method: "GET",
+        params: {},
+      }),
+      transformResponse: (res) => res.sort((a, b) => b.id - a.id),
       providesTags: ["Destinations"],
     }),
 
@@ -30,7 +35,7 @@ export const destinationApi = createApi({
       invalidatesTags: ["Destinations"],
     }),
     deleteDestination: builder.mutation({
-      query: ({id}) => ({
+      query: ({ id }) => ({
         url: `destination/${id}`,
         method: "DELETE",
         body: id,
