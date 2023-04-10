@@ -1,5 +1,4 @@
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
-import { middleware } from "yargs";
+import { configureStore} from "@reduxjs/toolkit";
 import { destinationApi } from "../api/destinationApi";
 
 export const store = configureStore({

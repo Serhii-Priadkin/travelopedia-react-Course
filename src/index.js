@@ -4,11 +4,12 @@ import DestinationIndex from "./components/DestinationIndex";
 import Header from "./layout/Header";
 import { destinationApi } from "./api/destinationApi";
 import { Provider } from "react-redux";
+import { store } from "./Redux/store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Provider api={destinationApi}>
+    <Provider store={store}>
       <Header />
       <DestinationIndex />
     </Provider>
